@@ -2,11 +2,6 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const carouselSchema = new Schema({
-    carouselID: {
-        type: String,
-        required: true,
-        unique: true
-    },
     imageNews: {
         type: String, // URL or filename of the image
         required: true
